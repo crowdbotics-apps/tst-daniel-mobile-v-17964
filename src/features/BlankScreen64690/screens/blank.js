@@ -42,7 +42,18 @@ export class _Blank extends React.Component {
           borderStyle: "solid",
           backgroundSize: "auto"
         }}
-      />
+      >
+        <Button
+          style={{
+            overflow: "visible",
+            borderStyle: "solid",
+            backgroundColor: "#3366FF"
+          }}
+          onPress={() => alert("Pressed!")}
+        >
+          Button
+        </Button>
+      </View>
     </View>
   )
 }
